@@ -1,0 +1,36 @@
+body {
+    background-color: beige;
+}
+h1{
+ text-align: center;
+}
+.flex-container {
+    border: #000 solid 1px;
+    background: #ccc;
+    display: flex;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    /*Flex Direction*/
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* flex flow combina: flex-direction y flex-wrap*/
+    /* flex-flow: row wrap;*/
+    justify-content: space-between;
+    /* Space-Between: centra añadiendo espacios*/
+    align-items: center;
+    width: 100%;
+    /*margin: 0 auto;*/
+}
+    
+     .caja {
+        border: 1px solid #000;
+        background-color: white;
+        color: black;
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: bold;
+        width: 10rem;
+        height: 10rem;
+        line-height: 120 px;
+        text-align: center;
+        margin: 5px;
+    }
